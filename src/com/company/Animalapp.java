@@ -14,9 +14,19 @@ public class Animalapp {
 
 
         Bird b = new Bird();
-        print(b.eat());
+       // print(b.eat());
         print(b.sleep());
         print(b.fly());
+
+        Dog d =new Dog();
+        print(d.eat());
+        print(d.sleep());
+        print(d.noise());
+
+        Mouse m =new Mouse();
+        print(m.eat());
+        print(m.sleep());
+        print(m.squeek());
 
     }
 

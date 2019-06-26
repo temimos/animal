@@ -15,10 +15,10 @@ public class Bird extends Animal {
         return "A bird sleeps soundly...";
     }
 
-    @Override
-    public String eat() {
-        return "A bird eats...";
-    }
+   // @Override
+   // public String eat() {
+   //     return "A bird eats...";
+  //  }
 
 
     public String fly() {
